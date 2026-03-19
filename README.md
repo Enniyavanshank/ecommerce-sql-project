@@ -10,7 +10,8 @@ It demonstrates how SQL can be used to extract meaningful business insights from
 - Analyze customer purchasing behavior  
 - Track revenue and sales trends  
 - Identify top-performing products  
-- Understand monthly order and sales patterns  
+- Understand monthly order and sales patterns
+- month over month revenue   
 
 ## 🗂️ Database Structure
 The project consists of the following tables:
@@ -29,13 +30,16 @@ The project consists of the following tables:
 - Used JOINs to combine multiple tables  
 - Applied GROUP BY and aggregate functions for analysis  
 - Implemented CTE and RANK function to identify top customers  
-- Created indexes to improve query performance  
+- Created indexes to improve query performance
+- implemented subquery to analyse the mom revenue   
 
  #Sample Analysis
 - Total revenue calculation  
 - Monthly sales and order trends  
 - Customer spending analysis  
-- Top-selling products  
+- Top-selling products
+- mom revenue
+- mom growth  
 
 #Project Files
 - create_tables.sql → Table structure  
