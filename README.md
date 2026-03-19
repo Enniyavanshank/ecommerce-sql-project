@@ -1,5 +1,3 @@
-# ecommerce-sql-project
-SQL Server project analyzing e-commerce data using joins, aggregations, CTEs, and indexing to derive business insights.
 # E-Commerce Sales Analytics (SQL Server)
 
 ## 📌 Overview
@@ -10,48 +8,48 @@ It demonstrates how SQL can be used to extract meaningful business insights from
 - Analyze customer purchasing behavior  
 - Track revenue and sales trends  
 - Identify top-performing products  
-- Understand monthly order and sales patterns
-- month over month revenue   
+- Understand monthly order and sales patterns  
+- Perform month-over-month (MoM) revenue analysis  
 
 ## 🗂️ Database Structure
 The project consists of the following tables:
-- Customers
-- Orders
-- Products
-- OrderDetails
+- Customers  
+- Orders  
+- Products  
+- OrderDetails  
 
 ## ⚙️ Tools & Technologies
-- Microsoft SQL Server
-- SQL (Joins, Aggregations, CTEs, Window Functions)
-- Indexing (Clustered & Non-Clustered)
+- Microsoft SQL Server  
+- SQL (JOINs, Aggregations, CTEs, Window Functions)  
+- Indexing (Clustered & Non-Clustered)  
 
 ## 🔍 Key Features
-- Performed CRUD operations on relational database  
-- Used JOINs to combine multiple tables  
-- Applied GROUP BY and aggregate functions for analysis  
-- Implemented CTE and RANK function to identify top customers  
-- Created indexes to improve query performance
-- implemented subquery to analyse the mom revenue   
+- Performed CRUD operations on a relational database  
+- Used JOINs to combine multiple tables for analysis  
+- Applied GROUP BY and aggregate functions to generate insights  
+- Implemented CTE and RANK functions to identify top customers  
+- Created clustered and non-clustered indexes to improve query performance  
+- Performed month-over-month (MoM) analysis using window functions (LAG)  
 
- #Sample Analysis
+## 📊 Sample Analysis
 - Total revenue calculation  
 - Monthly sales and order trends  
 - Customer spending analysis  
-- Top-selling products
-- mom revenue
-- mom growth  
+- Top-selling products  
+- Month-over-month revenue  
+- Month-over-month growth  
 
-#Project Files
+## 📁 Project Files
 - create_tables.sql → Table structure  
 - insert_data.sql → Sample data  
 - queries.sql → Analytical queries  
 - indexes.sql → Index creation scripts  
 
-#Key Learning
+## 🚀 Key Learnings
 - Hands-on experience with relational database design  
-- Writing efficient SQL queries  
+- Writing efficient SQL queries using joins and aggregations  
 - Understanding query optimization using indexing  
 - Applying SQL for real-world data analysis  
 
-#Author
-Enniyavan Shankar
+## 👤 Author
+**Enniyavan Shankar**
